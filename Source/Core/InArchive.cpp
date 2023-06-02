@@ -67,8 +67,10 @@ std::shared_ptr<Base> InArchive::getBaseSmartPtrByType(const std::string& typeIn
 void InArchive::iterateBufferToSerializedObjs(std::vector<SerializedObject>& objects, std::vector<char>& buffer)
 {
     size_t offset = 0;
+    size_t iterator = 0;
 
-    while (offset < buffer.size() - 1) {
+    while (offset < buffer.size() - iterator) {
+        iterator++;
         SerializedObject obj;
         obj.deserialize(buffer, offset);
         objects.push_back(obj);
