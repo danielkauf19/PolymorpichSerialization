@@ -1,0 +1,44 @@
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CTestTestfile.cmake
+cmake-build-debug
+Makefile
+
+# Compiled binary files (if any)
+*.exe
+*.out
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# Build output directory (if using out-of-source build)
+build/
+
+# Dependency directories (if using a package manager)
+# Examples:
+# - Conan: conanbuildinfo.txt, conanbuildinfo.json, .conan/
+# - vcpkg: vcpkg_installed/
+# - CPM.cmake: CPM.cmake, CPM/
+# Build output directory (if using out-of-source build)
+build/
+
+# Dependency directories (if using a package manager)
+# Examples:
+# - Conan: conanbuildinfo.txt, conanbuildinfo.json, .conan/
+# - vcpkg: vcpkg_installed/
+# - CPM.cmake: CPM.cmake, CPM/
+
+# Other generated or temporary files
+*.swp
+*~
